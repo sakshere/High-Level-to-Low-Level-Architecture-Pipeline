@@ -1,0 +1,14 @@
+Business Requirement: Online Food Delivery Platform
+
+We need to build an online food delivery platform similar to Uber Eats or DoorDash. The platform should allow customers to browse nearby restaurants, view their menus, place orders, and track deliveries in real time. Restaurant owners should be able to manage their menus, view incoming orders, and update order statuses. Delivery drivers should receive order assignments, navigate to pickup and drop-off locations, and confirm deliveries.
+
+Key Features:
+1. User Registration and Authentication — Customers, restaurant owners, and delivery drivers should each have their own registration and login flows with role-based access.
+2. Restaurant Discovery — Customers can search for restaurants by cuisine, rating, distance, and price range. Results should be sortable and filterable.
+3. Menu Management — Restaurant owners can add, edit, and remove menu items. Each item should have a name, description, price, category, and availability toggle.
+4. Cart and Checkout — Customers can add items from a single restaurant to a cart, apply promo codes, and pay via credit card or digital wallet.
+5. Order Management — Once placed, orders go through statuses: Pending, Confirmed, Preparing, Out for Delivery, Delivered. Both customers and restaurants can view order history.
+6. Real-Time Delivery Tracking — After a driver picks up an order, customers should see the driver's live location on a map.
+7. Ratings and Reviews — Customers can rate and review restaurants and delivery drivers after an order is completed.
+8. Notifications — Push notifications for order confirmations, status updates, and promotional offers.
+9. Admin Dashboard — A back-office panel for platform administrators to manage users, restaurants, disputes, and view analytics.
